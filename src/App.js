@@ -1,13 +1,14 @@
+import React from 'react'
 import './App.css';
+import Header from './components/Header.js'
+import InputBox from './components/InputBox.js'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>       
-      </header>
+      <Header />
+      <hr></hr>
+      <InputBox />
     </div>
   );
 }
