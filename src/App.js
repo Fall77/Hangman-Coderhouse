@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <hr></hr>
+      <br></br>
       <InputBox />
     </div>
   );
